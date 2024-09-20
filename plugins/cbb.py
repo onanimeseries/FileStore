@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Ｓａｔｕｒｏ</a><br>○ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/OnAnimeSeries'>ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ</a><br>○ ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋs : <a href='https://t.me/OnAnimeSeries_Network'>ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ ɴᴇᴛᴡᴏʀᴋ</a><br>○ ꜱᴜᴘᴘᴏʀᴛ : <a href='https://t.me/OnAnimeseriesSupport'>ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ ꜱᴜᴘᴘᴏʀᴛ</a><br>○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/OnAnimeseriesUniverse'>ᴀɴɪᴍᴇ ᴜɴɪᴠᴇʀꜱᴇ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Ｓａｔｕｒｏ</a>\n○ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/OnAnimeSeries'>ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ</a>\n○ ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋs : <a href='https://t.me/OnAnimeSeries_Network'>ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ ɴᴇᴛᴡᴏʀᴋ</a>\n○ ꜱᴜᴘᴘᴏʀᴛ : <a href='https://t.me/OnAnimeseriesSupport'>ᴀɴɪᴍᴇ ꜱᴇʀɪᴇꜱ ꜱᴜᴘᴘᴏʀᴛ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/OnAnimeseriesUniverse'>ᴀɴɪᴍᴇ ᴜɴɪᴠᴇʀꜱᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
