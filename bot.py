@@ -75,13 +75,14 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/OnAnimeseries")
-        self.LOGGER(__name__).info(f"""\n\n
-         ____        _                   
-        / ___|  __ _| |_ _   _ _ __ ___  
-        \___ \ / _` | __| | | | '__/ _ \ 
-         ___) | (_| | |_| |_| | | | (_) |
-        |____/ \__,_|\__|\__,_|_|  \___/ 
-                                        """)
+        self.LOGGER(__name__).info(r"""\n\n
+ ____        _                   
+/ ___|  __ _| |_ _   _ _ __ ___  
+\___ \ / _` | __| | | | '__/ _ \ 
+ ___) | (_| | |_| |_| | | | (_) |
+|____/ \__,_|\__|\__,_|_|  \___/ 
+                                    """)
+
 
         self.username = usr_bot_me.username
         #web-response
