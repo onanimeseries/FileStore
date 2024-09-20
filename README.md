@@ -64,7 +64,7 @@
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
-<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/erotixe/FileShareBot2&branch=main&name=main">
+<p align="center"><a href="https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=filestore&type=git&repository=onanimeseries%2FFileStore&branch=main&builder=buildpack&run_command=python3+bot.py&env%5B%5D=&ports=8080%3Bhttp%3B%2F">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
