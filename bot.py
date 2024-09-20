@@ -81,7 +81,7 @@ class Bot(Client):
         \___ \ / _` | __| | | | '__/ _ \ 
          ___) | (_| | |_| |_| | | | (_) |
         |____/ \__,_|\__|\__,_|_|  \___/ 
-                                        \n\n""")
+                                        """)
 
         self.username = usr_bot_me.username
         #web-response
